@@ -6,35 +6,55 @@
 
 #img-fondo {
 
-    position: relative;
-    top: 0px;
-    width: 100vw;
+    display: flex;
+    width: 100%;
+    background-image: url(./images/daniel-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;height: 100hw;
+    background-attachment: fixed;
     z-index: -1;
+
   
+}
+
+.fondo-container {
+
+    display: flex;
+    width: 80%;
+    height: 70%;
+    border-right: 10px solid #00ffff;
+    background-color:rgba(0, 0, 0, 0.4);
+
+
 }
 
 .wrapper {
 
     
     display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     overflow-y: hidden;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
     background-color:rgba(0, 0, 0, 0.9);
     
 }
 
-/*.logo-container {
+.logo-container {
     
     display: flex;
+    position: absolute;
+    top: 20px;
+    left: 55px;
     align-content: flex-start;
     
-}*/
+}
 
 .daniel-logo {
     fill: aqua;
     width: 400px;
     padding-left: 40px;
+
 }
