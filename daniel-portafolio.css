@@ -8,10 +8,10 @@
 
     display: flex;
     width: 100%;
-    background-image: url(./images/daniel-fondo.jpg);
+   /* background-image: url(./images/daniel-fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;height: 100hw;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     z-index: -1;
 
   
@@ -19,12 +19,23 @@
 
 .fondo-container {
 
-    display: flex;
+
     width: 80%;
     height: 70%;
-    border-right: 10px solid #00ffff;
-    background-color:rgba(0, 0, 0, 0.4);
+    border-right: 5px solid #00ffff;
+    border-left: 1px solid aqua;
 
+}
+
+#info {
+
+    color: aqua;
+    font-family: gotham;
+    font-size: small;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0.7vw;
+    bottom: 17.5vw;
 
 }
 
@@ -46,15 +57,16 @@
     
     display: flex;
     position: absolute;
-    top: 20px;
-    left: 55px;
+    top: 3vh;
+    left: 5vw;
     align-content: flex-start;
     
 }
 
 .daniel-logo {
+    
     fill: aqua;
     width: 400px;
     padding-left: 40px;
-
+    
 }
