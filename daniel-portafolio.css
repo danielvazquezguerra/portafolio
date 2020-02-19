@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#img-fondo {
+
+    position: relative;
+    top: 0px;
+    width: 100vw;
+    z-index: -1;
+  
+}
+
+.wrapper {
+
+    
+    display: flex;
+    overflow: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color:rgba(0, 0, 0, 0.9);
+    
+}
+
+/*.logo-container {
+    
+    display: flex;
+    align-content: flex-start;
+    
+}*/
+
+.daniel-logo {
+    fill: aqua;
+    width: 400px;
+    padding-left: 40px;
+}
