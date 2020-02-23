@@ -37,7 +37,7 @@ header {
 
     text-decoration: none;
     color: #00ffff;
-    font-family: 'Work Sans', thin;
+    font-family: 'Work Sans', bold;
     font-size: 12px;
     letter-spacing: 2px;
     padding-right: 10px;
@@ -111,6 +111,22 @@ footer {
     transition: 0.1s cubic-bezier(.7,0,.42,1);
     cursor: pointer;
     
+}
+
+.apellido {
+
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -10px;
+    height: 100%;
+    left: -100px;
+    color: rgb(26, 26, 26);
+    font-size: 200px;
+    line-height: 130px;
+    text-shadow: #00ffff 1px 0px 0px, #00ffff 0.540302px 0.841471px 0px, #00ffff -0.416147px 0.909297px 0px, #00ffff -0.989992px 0.14112px 0px, #00ffff -0.653644px -0.756802px 0px, #00ffff 0.283662px -0.958924px 0px, #00ffff 0.96017px -0.279415px 0px;
+    opacity: 0.3;
+
+
 }
 
 .daniel-logo:hover {
