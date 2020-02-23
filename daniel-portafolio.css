@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: theboldfont;
+    src: url(./fonts/theboldfont.ttf);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +17,6 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    border: 1px solid #00ffff;
     background-color: rgb(26, 26, 26);
 }
 
@@ -75,18 +79,18 @@ footer {
 .ft-cont {
 
     width: 33%;
-    border-top: 1px solid white;
+    border-top: 10px solid #00ffff;
 }
 
 #ft-md {
-    border-top: 2px solid white;
+    border-top: 10px solid #00ffff;
 }
 
 #info {
 
     position: absolute;
     right: 0vw;
-    top: 48vh;
+    top: 45vh;
     color: #00ffff;
     width: 400px;
     font-family: 'Work Sans', thin;
@@ -116,13 +120,13 @@ footer {
 .apellido {
 
     position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: theboldfont;
     letter-spacing: -10px;
     height: 100%;
     left: -100px;
     color: rgb(26, 26, 26);
     font-size: 200px;
-    line-height: 130px;
+    line-height: 160px;
     text-shadow: #00ffff 1px 0px 0px, #00ffff 0.540302px 0.841471px 0px, #00ffff -0.416147px 0.909297px 0px, #00ffff -0.989992px 0.14112px 0px, #00ffff -0.653644px -0.756802px 0px, #00ffff 0.283662px -0.958924px 0px, #00ffff 0.96017px -0.279415px 0px;
     opacity: 0.3;
 
