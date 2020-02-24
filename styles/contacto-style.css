@@ -217,6 +217,16 @@ footer {
 
 }
 
+#lugar {
+
+    margin-top: 54px;
+    color: #000000;
+    font-family: 'Work Sans', thin;
+    line-height: 20px;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
 .material-icons {
     display: flex;
     align-items: center;
