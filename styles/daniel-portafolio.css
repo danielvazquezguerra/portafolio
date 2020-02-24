@@ -101,11 +101,16 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: #000000;
+    font-family: 'Work Sans', Thin;
+    font-size: 10px;
     width: 33%;
     border-top: 10px solid #000000;
+
 }
 
 #ft-md {
+
     border-top: 10px solid #000000;
 }
 
@@ -161,14 +166,15 @@ footer {
     letter-spacing: 32px;
     top: 21vh;
     height: 80%;
+    right: 125px;
     left: -100px;
     color: /*rgb(0, 255, 255) */ black;
     font-size: 200px;
     line-height: 188px;
-   /* text-shadow: #000000 1px 0px 0px, #000000 0.540302px 0.841471px 0px, #000000 -0.416147px 0.909297px 0px, #000000 -0.989992px 0.14112px 0px, #000000 -0.653644px -0.756802px 0px, #000000 0.283662px -0.958924px 0px, #000000 0.96017px -0.279415px 0px; */
-
-
+   
 }
+
+
 
 #fecha {
 
@@ -184,7 +190,6 @@ footer {
     position: absolute;
     left: -100px;
     width: 80%;
-    opacity: 0.8;
 }
 
 #redes {
@@ -193,6 +198,14 @@ footer {
     flex-direction: column;
 
 }
+
+#lugar {
+
+    
+    padding-top: 10px;
+    margin-top: 40px
+}
+
 
 .material-icons {
     display: flex;
@@ -223,7 +236,6 @@ footer {
     /* Support for IE. */
     font-feature-settings: 'liga';
   }
-
 
 
 
