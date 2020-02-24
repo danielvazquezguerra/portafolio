@@ -102,8 +102,6 @@ footer {
     justify-content: flex-end;
     align-items: center;
     color: #000000;
-    font-family: 'Work Sans', Thin;
-    font-size: 10px;
     width: 33%;
     border-top: 10px solid #000000;
 
@@ -201,9 +199,12 @@ footer {
 
 #lugar {
 
-    
-    padding-top: 10px;
-    margin-top: 40px
+    margin-top: 54px;
+    color: #000000;
+    font-family: 'Work Sans', thin;
+    line-height: 20px;
+    font-size: 10px;
+    letter-spacing: 5px;
 }
 
 
